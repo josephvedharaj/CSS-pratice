@@ -52,6 +52,7 @@ body{
   mask-image: radial-gradient(circle, #040716 50%, transparent 80%);
   mask-composite: intersect;
   margin-bottom: 0px;
+  margin-top: -40px;
 }
 p{
   text-shadow: 1px 1px 10px aqua;
