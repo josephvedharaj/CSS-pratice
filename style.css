@@ -43,7 +43,7 @@ body{
   text-wrap: nowrap;
   color: aqua;
   width: 340px;
-  height: 300px;
+  height: 212px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,13 +51,13 @@ body{
   position: relative;
   mask-image: radial-gradient(circle, #040716 50%, transparent 80%);
   mask-composite: intersect;
-
+  margin-bottom: 0px;
 }
 p{
   text-shadow: 1px 1px 10px aqua;
   font-size: 26px;
   position: absolute;
-  bottom: 14%;
+  bottom: 0%;
   animation-name: move;
   animation-duration: 2.7s;
   animation-iteration-count: infinite;
@@ -100,9 +100,7 @@ p{
   border-width: 1.2px;
   height: 14px;
   width: 155px;
-  position: absolute;
-  right: calc(50% - 77.5px);
-  top: 66.3%;
+  margin-top: 0px;
   overflow: hidden;
 }
 #progress{
